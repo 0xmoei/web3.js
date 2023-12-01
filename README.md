@@ -19,7 +19,7 @@ You can install the package either using [NPM](https://www.npmjs.com/package/web
 
 > If you wanna checkout latest bugfix or feature, use `npm install web3@dev`
 
-### Using NPM
+### Using NPM tools
 
 ```bash
 npm install web3
