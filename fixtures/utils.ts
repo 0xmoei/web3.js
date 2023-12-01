@@ -53,7 +53,8 @@ const getNameValue = <R extends object>(
 	}
 };
 
-export const toAllVariants = <R extends object>(obj: InObj): R[] => {
+export const sleep = async (ms: number) =>
+    export const toAllVariants = <R extends object>(obj: InObj): R[] => {
 	const keys: string[] = Object.keys(obj);
 	const result: Array<R> = [];
 	getNameValue<R>({}, obj, keys, result);
